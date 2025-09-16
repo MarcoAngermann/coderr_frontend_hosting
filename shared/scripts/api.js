@@ -1,4 +1,4 @@
-
+const API_BASE_URL = API_BASE;
 function setAuthCredentials(token, userId, username) {
     localStorage.setItem('auth-token', token);
     localStorage.setItem('auth-user', username);
